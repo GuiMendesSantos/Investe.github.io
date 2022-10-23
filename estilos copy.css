@@ -10,6 +10,8 @@
 }
 body {
     min-height: 100vh;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -19,9 +21,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    z-index: 2;
-    padding:0;
-    margin:0;
+    z-index: 3;
     width: 100%;
     font-size: 1.3rem;
 }
@@ -34,39 +34,7 @@ header {
 
 
 
-.lista__items {
-    list-style: none;
-    display: flex;
-}
-
-
-
-.lista-item__link {
-    position: relative;
-    color: white;
-    text-decoration: none;
-    padding-left: 2rem;
-}
-
-
-
-.lista-item__link:hover {
-    text-decoration: underline 5px;
-}
 /* -------------------- Chamada  -----------------------   */
-
-.chamada {
-    padding: 6rem 2rem;
-    width: calc(100% -4px);
-    background: linear-gradient(#fff, #ccc ) fixed;
-    overflow: hidden;
-    background-image: url('cool-background.png');
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-
-
-
 .chamada__titulo {
     font-family:Candara;
     font-size: 2.5rem;
@@ -85,15 +53,8 @@ header {
 
 
 /* ------------------- Sobre -------------- */
-.sobre {
-  padding: 6rem 2rem;
-  width: calc(100% -4px);
-  background: linear-gradient(#fff, #ccc ) fixed;
-  overflow: hidden;
-  background-image: url('cool-background.png');
- background-repeat: no-repeat;
- background-size: cover;
-}
+
+
 
 
 .sobre__conteudo {
@@ -108,11 +69,10 @@ header {
 }
 
 .sobre__titulo{
-    padding-top: 3rem;
     font-family: Candara;
     font-size: 4rem;
     text-align: center;
-    color:#ffffff;
+  color: rgb(0, 0, 0);
 }
 
 .sobre__items{
@@ -141,22 +101,13 @@ header {
     text-align:justify;
     color:#000000;
 }
-
-
-.sobre__imagem-ilustrativa{
-    width: 40%;
-    border-radius: 5px;
-
-}
-
 /* ------------------- Container -------------- */
 .chamada__container{
     border-radius: 20px;
     background: linear-gradient(145deg, #d7d6d6, #ffffff);
     margin: auto auto;
     width: 55%;
-    padding: 5rem 4rem;
-    margin-top: 3rem;
+    padding: 6rem 4rem;
     background: rgb(255, 255, 255);
     color: rgba(0,0,0,.5);
     -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
@@ -174,39 +125,6 @@ header {
 .espacolado{
     margin-left:2rem;
 }
-/* ------------------- Neon -------------- */
-.letraneon{
-    position: static;
-    display: inline-block;
-    padding:20px;
-    margin: 20px;
-    margin-left: 60px;
-    color:#1eff00;
-    font-family:'Candana';
-    text-decoration: none;
-    transition: 0.4s;
-    overflow: hidden;
-    margin-right: 0px;
-    display: inline-block;
-    font-family: Arial;
-    font-size: 3rem;
-    text-transform: uppercase;
-    letter-spacing: 10px;  
-    color: #ffffff;
-    padding: 0;
-    margin: 0;
-    border-radius: 10px;
-  }
-
-  .letraneon:hover{
-    background: #1eff00;
-    color: #000;
-    box-shadow: 0 0 10px #1eff00, 0 0 40px #1eff00, 0 0 70px #1eff00;
-  }
-  .letraneon-blue:active{
-     color:#1eff00; 
-     background: #000000;
-  }
 
 /* ------------------- Barra Separação -------------- */
   
@@ -216,17 +134,6 @@ header {
     background-image: linear-gradient(to right, transparent, #CCC, transparent);  
   }
 
- .semicirculo-baixo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 100px;
-    width: 200px;
-    border-radius: 150px 150px 0 0;
-    background-color: white;
-
-}
 /* ------------------- Carrossel -------------- */
 .visuallyhidden {
     position: absolute;
@@ -235,13 +142,7 @@ header {
     opacity: 0;
   }
   
-  .containercarousel {
-    overflow: hidden;
-    padding: 60px;
-    padding-top: 10px;
-    background: rgba(0,0,0,.1)
-  }
-  
+
   .card-carousel {
     --card-width: 80%;
     --card-max-width: 520px;
@@ -254,6 +155,8 @@ header {
     height: var(--card-height);
     min-width: var(--carousel-min-width);
     transition: filter .3s ease;
+    padding-bottom: 10rem;
+
   }
   
   @media screen and (max-width: 640px) {
@@ -301,7 +204,7 @@ b{
 nav.circle ul li a {
   position: relative;
   overflow: hidden;
-  z-index: 1;
+  z-index: 2;
 }
 nav.circle ul li a:after {
   display: block;
@@ -333,7 +236,7 @@ nav.circle ul li a:hover:after {
     height: 1px;
     z-index: -1;
     background:rgb(255, 255, 255);
-    border-radius: 100%;
+    border-radius: 50%;
   }
   100% {
     background: rgb(228, 228, 228);
@@ -350,9 +253,10 @@ nav.circle ul li a:hover:after {
 }
 
 nav {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px 0rem 20px 20rem;
+  width: 100%;
+  padding: 20px 3rem 20px 20rem;
+  display:flex;
+  
 }
 nav ul {
   list-style: none;
