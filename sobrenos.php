@@ -21,7 +21,6 @@ session_start();
     <link rel="stylesheet" href="./assets/css/sobrenos/carroussel.css">
     <link rel="stylesheet" href="./assets/css/conhecendo/ondas.css">
     <link rel="stylesheet" href="./assets/css/conhecendo/Responsivo.css">
-    <link rel="stylesheet" href="./assets/css/sobrenos/modal.css">
 
     <script src="https://kit.fontawesome.com/cf6fa412bd.js" crossorigin="anonymous"></script>
 </head>
@@ -73,27 +72,17 @@ session_start();
         <div class="card-carousel">
         <div class="card" id="1">
                     <div class="image-container"></div>
-                    <p class="funcaocarrousel">P.O</p>
+                    <p class="funcaocarrousel">SCRUM MASTER</p>
                     <p class="nomecarrousel">NICHOLAS</p>
-                    <p class="descricaocarrousel">Olá sou Tainá P.O do INVESTE!</p>
-            <input class="modal-btn" type="checkbox" id="modal-btn" name="modal-btn"/>
-      	    <label for="modal-btn">VER MAIS<i class="uil uil-expand-arrows"></i></label> 		
-      	        <div class="modal">		
-	      	        <div class="modal-wrap">	
-	      		<p class="descricaocarrousel">Olá sou Tainá P.O do INVESTE!</p>	          		
+                    <p class="descricaocarrousel">Olá sou Nicholas Scrum Master do INVESTE!</p>         		
 	      	</div>			          		
       	        </div>	
                     </div>  
         <div class="card" id="2">
                     <div class="image-container"></div>
-                    <p class="funcaocarrousel">P.O</p>
+                    <p class="funcaocarrousel">BACK-END</p>
                     <p class="nomecarrousel">RAI</p>
-                    <p class="descricaocarrousel">Olá sou Tainá P.O do INVESTE!</p>
-            <input class="modal-btn" type="checkbox" id="modal-btn" name="modal-btn"/>
-      	    <label for="modal-btn">VER MAIS<i class="uil uil-expand-arrows"></i></label> 		
-      	        <div class="modal">		
-	      	        <div class="modal-wrap">	
-	      		<p class="descricaocarrousel">Olá sou Tainá P.O do INVESTE!</p>	          		
+                    <p class="descricaocarrousel">Olá sou Rai desenvolvedor do INVESTE!</p>         		
 	      	</div>			          		
       	        </div>	
                     </div>  
@@ -102,47 +91,25 @@ session_start();
                     <div class="image-container"></div>
                     <p class="funcaocarrousel">P.O</p>
                     <p class="nomecarrousel">TAINÁ</p>
-                    <p class="descricaocarrousel">Olá sou Tainá P.O do INVESTE!</p>
-            <input class="modal-btn" type="checkbox" id="modal-btn" name="modal-btn"/>
-      	    <label for="modal-btn">VER MAIS<i class="uil uil-expand-arrows"></i></label> 		
-      	        <div class="modal">		
-	      	        <div class="modal-wrap">	
-	      		<p class="descricaocarrousel">Olá sou Tainá P.O do INVESTE!</p>	          		
+                    <p class="descricaocarrousel">Olá sou Tainá P.O do INVESTE!</p>          		
 	      	</div>			          		
       	        </div>	
                     </div>  
 
                     <div class="card" id="4">
                     <div class="image-container"></div>
-                    <p class="funcaocarrousel">P.O</p>
+                    <p class="funcaocarrousel">FRONT-END</p>
                     <p class="nomecarrousel">JESSICA</p>
-                    <p class="descricaocarrousel">Olá sou Tainá P.O do INVESTE!</p>
-            <input class="modal-btn" type="checkbox" id="modal-btn" name="modal-btn"/>
-      	    <label for="modal-btn">VER MAIS<i class="uil uil-expand-arrows"></i></label> 		
-      	        <div class="modal">		
-	      	        <div class="modal-wrap">	
-	      		<p class="descricaocarrousel">Olá sou Tainá P.O do INVESTE!</p>	          		
+                    <p class="descricaocarrousel">Olá sou Jessica desenvolvedora do INVESTE!</p>		          		
 	      	</div>			          		
       	        </div>	
                     </div>  
 
                 <div class="card" id="5">
                     <div class="image-container"></div>
-                    <p class="funcaocarrousel">P.O</p>
+                    <p class="funcaocarrousel">FRONT-END</p>
                     <p class="nomecarrousel">GUILHERME</p>
-                    <p class="descricaocarrousel">Olá sou Tainá P.O do INVESTE!</p>
-                    <div class="wrap">
-  <button class="js-open btn-open is-active">Show modal</button>
-  <div class="modal js-modal">
-    <div class="modal-image">
-      <svg viewBox="0 0 32 32" style="fill:#48DB71"><path d="M1 14 L5 10 L13 18 L27 4 L31 8 L13 26 z"></path></svg>
-    </div>
-    <h1>Nice job!</h1>
-    <p>To dismiss click the button below</p>
-    <button class="js-close">Dismiss</button>
-  </div>
-</div>	
-	      		<p class="descricaocarrousel">Olá sou Tainá P.O do INVESTE!</p>	          		
+                    <p class="descricaocarrousel">Olá sou Guilherme desenvolvedor do INVESTE!</p> 		
 	      	</div>			          		
       	        </div>	
                     </div>  
@@ -177,9 +144,7 @@ session_start();
 </body>
 
 <script type="module" src="./assets/js/sobrenos/carrousselscript.js"></script>
-<script src='https://codepen.io/rppld/pen/KpbZWY.js'></script>
-<script src='https://unpkg.com/dynamics.js@1.1.5'></script>
-<script src="./assets/js/sobrenos/modal.js"></script>
 <script type="module" src="./assets/js/padrao.js"></script>
+<script src="./assets/js/sobrenos/modal.js" defer></script>
 
 </html>
