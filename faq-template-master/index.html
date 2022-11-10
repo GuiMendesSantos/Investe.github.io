@@ -4,16 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/conhecendo/particulas.css">
+  <link rel="stylesheet" href="./assets/css/conhecendo/ondas.css">
+  <link rel="stylesheet" href="./assets/css/conhecendo/Responsivo.css">
+  <link rel="stylesheet" href="./assets/css/perguntasf/perguntas.css">
+  <link rel="stylesheet" href="./assets/css/padrao.css">
   <link rel="icon" href="./assets/imgs/logoInveste.png">
-
-    <link rel="stylesheet" href="./assets/css/conhecendo/particulas.css">
-    <link rel="stylesheet" href="./assets/css/conhecendo/ondas.css">
-    <link rel="stylesheet" href="./assets/css/conhecendo/Responsivo.css">
     <script src="https://kit.fontawesome.com/cf6fa412bd.js" crossorigin="anonymous"></script>
     <title>INVESTE! | CONHECENDO</title>
+	
 </head>
 <body>
+	<header class="cabecalho">
+        <a href="index.php" class="cabecalho__logo">
+            <div class="logo__site" alt="logo investe"></div>
+        </a>
+
+        <div class="menu-secao" data-menu-secao>
+            <div class="menu-juncao" data-menu-jucao>
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
+            <nav class="cabecalho__nav-bar">
+                <ul class="cabelho__items">
+                    <a class="cabecalho__item-redirecionamento" href="home.php">
+                        <li class="cabecalho__item">HOME</li>
+                    </a>
+                    <a class="cabecalho__item-redirecionamento" href="cursos.php">
+                        <li class="cabecalho__item">CURSOS</li>
+                    </a>
+                    <a class="cabecalho__item-redirecionamento" href="noticias.php">
+                        <li class="cabecalho__item">NOTÍCIAS</li>
+                    </a>
+                    <a class="cabecalho__item-redirecionamento" href="login.php">
+                        <li class="cabecalho__item">ENTRAR</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+	
 
 <section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
 	<ul class="cd-faq__categories">
@@ -21,7 +54,6 @@
 		<li><a class="cd-faq__category truncate" href="#mobile">Pagamentos</a></li>
 		<li><a class="cd-faq__category truncate" href="#account">Cursos</a></li>
 		<li><a class="cd-faq__category truncate" href="#privacidade">Privacidade</a></li>
-
 	</ul> <!-- cd-faq__categories -->
 
 	<div class="cd-faq__items">
@@ -63,7 +95,7 @@
 				</div> <!-- cd-faq__content -->
 			</li>
 		</ul> <!-- cd-faq__group -->
-
+			<br><br>
 		<ul id="mobile" class="cd-faq__group">
 			<li class="cd-faq__title"><h2>Pagamentos</h2></li>
 			<li class="cd-faq__item">
@@ -93,7 +125,7 @@
 				</div> <!-- cd-faq__content -->
 			</li>
 		</ul> <!-- cd-faq__group -->
-
+		<br><br>
 		<ul id="account" class="cd-faq__group">
 			<li class="cd-faq__title"><h2>Cursos</h2></li>
 			<li class="cd-faq__item">
@@ -132,7 +164,7 @@
 				</div> <!-- cd-faq__content -->
 			</li>
 		</ul> <!-- cd-faq__group -->
-
+		<br><br>
 		<ul id="privacidade" class="cd-faq__group">
 			<li class="cd-faq__title"><h2>Privacidade e Segurança</h2></li>
 			<li class="cd-faq__item">
@@ -179,7 +211,31 @@
   
   <div class="cd-faq__overlay" aria-hidden="true"></div>
 </section> <!-- cd-faq -->
+<br><br><br><br><br><br><br><br><br><br>
+<footer class="rodape">
+
+	<a href="index.php">
+		<div class="logo__site" alt="logo investe"></div>
+	</a>
+
+	<section class="redes-sociais">
+
+		<div class="redes-sociais__imagens facebook" alt="facebook"></div>
+		<div class="redes-sociais__imagens twitter" alt="twitter"></div>
+		<div class="redes-sociais__imagens instagram" alt="instragram"></div>
+
+		<p class="redes-sociais__direitos">INVESTE! ® 2022 | TODOS OS DIREITOS RESERVADOS</p>
+
+	</section>
+
+	<nav class="informacoes">
+		<a class="informacoes_item" href="http://investsite.infinityfreeapp.com/about.php">SOBRE NÓS </a>
+		<a class="informacoes_item">CONTATO</a>
+	</nav>
+
+</footer>
+</body>
 <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
 <script src="assets/js/main.js"></script> 
-</body>
+<script type="module" src="./assets/js/padrao.js"></script>
 </html>

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.cabecalho {
+  position: absolute;
+  top: -120px;
+  width: 100%;
+  z-index: 3;
+}
+
+.quebra__linha {
+  margin: 4rem;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #CCC, transparent);
+  filter: brightness(.9);
+}
+
+.titulo {
+  filter: brightness(.9);
+  padding-top: 3rem;
+  font-size: 6rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 4rem;
+  width: 100%;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.titulo b {
+  color: #4ABD3A;
+  font-family: 'Montserrat', sans-serif;
+}
+
